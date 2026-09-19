@@ -1,0 +1,153 @@
+/* ================================
+NAIJA KITCHEN - starter sytlessheet
+
+Some rules in here will not work.
+Finding ou why is your job today. 
+=================================*/
+
+/* ===== BASE ===== */
+/* you will write the body rules here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO */
+#hero h2 {
+    color: #6b7280
+}
+
+#hero p {
+    font-size: 0.9rem;
+}
+
+.recipe-title {
+    color: #036d58
+}
+
+.recipe-intro {
+    font-size: 1.2rem;
+}
+
+
+/* TAGS */
+.tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 99px;
+    font-size: 0.875rem;
+}
+
+.tag--spicy {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.tag--quick {
+    background: #dbeafe;
+    color: #1e40af;
+
+}
+
+/* BUTTON */
+.btn {
+    background: #036d58;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button {
+    background: #9ca3af;
+
+}
+
+
+/* NOTES */
+.note {
+    background: #fef3c7;
+    padding: 1rem;
+    border-left: 4px solid #f59e0b;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.note p {
+    color: #4b5563;
+}
+
+.note strong {
+    color: #92400e !important;
+}
+
+.ingredients {
+    background: #e6f2ef;
+    padding: 1.5rem;
+    margin: 10px 20px 30px 40px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* REVIEW FORM */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #036d58;
+}
+
+.btn {
+    display: inline-block;
+    background: #036d58;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #025243;
+}
+
+body {
+    font-family: 'Poppins', system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+
+}
