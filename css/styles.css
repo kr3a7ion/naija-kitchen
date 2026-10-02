@@ -153,7 +153,7 @@ nav a:focus {
 
 .btn:hover,
 .btn:focus {
-    background:  #025243;
+    background: #025243;
 }
 
 /* INGREDIENTS */
@@ -175,6 +175,7 @@ nav a:focus {
 .note p {
     margin-bottom: 0;
 }
+
 .note strong {
     color: #92400e
 }
@@ -190,4 +191,33 @@ footer {
 
 footer p {
     margin-bottom: 0;
+}
+
+
+/* ===== REVIEW FORM ===== */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #036d58;
+    box-shadow: 0 0 0 3px rgba(3, 109, 88, 0.15);
 }
