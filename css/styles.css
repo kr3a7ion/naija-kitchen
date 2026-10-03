@@ -294,3 +294,9 @@ textarea:focus {
     font-size: 0.875rem;
     margin-bottom: 0;
 }
+
+.gallery__item:hover,
+.gallery__item:focus-within {
+    transform: translate(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
