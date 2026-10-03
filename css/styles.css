@@ -60,10 +60,14 @@ header {
     background: #036d58;
     color: white;
     padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 header h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -72,18 +76,21 @@ nav ul {
     margin-bottom: 0;
     display: flex;
     gap: 1.5rem;
+    flex-wrap: wrap;
+
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
     display: inline-block;
 }
 
 nav a:hover,
 nav a:focus {
-    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 
@@ -119,6 +126,9 @@ nav a:focus {
 
 /* ===== TAGS  ======= */
 .tag-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
 }
 
@@ -188,7 +198,29 @@ footer {
     margin-top: 3rem;
     background: #1f2937;
     color: #e5e7eb;
-    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-links a {
+    color: #e5e7eb;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: white;
 }
 
 footer p {
