@@ -255,3 +255,42 @@ textarea:focus {
     border-color: #036d58;
     box-shadow: 0 0 0 3px rgba(3, 109, 88, 0.15);
 }
+
+
+/***** RECIPE GALLERY *******/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.gallery__item {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.gallery__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery__body {
+    padding: 1rem;
+}
+
+.gallery__title {
+    font-size: 1.125rem;
+    margin-bottom: 0;
+    margin-bottom: 0.25rem;
+}
+
+.gallery__meta {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+}
