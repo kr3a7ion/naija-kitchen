@@ -303,8 +303,29 @@ textarea:focus {
 }
 
 
+/***** MOBILE NAV *****/
+.nav-toogle {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
 
+.nav-toogle-label {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
 
+.nav-toogle-label span {
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+}
 
 
 
