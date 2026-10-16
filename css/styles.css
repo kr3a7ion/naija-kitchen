@@ -332,18 +332,40 @@ textarea:focus {
 /***** MOBILE *****/
 @media (max-width: 640px) {
     header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-between;
+        align-items: center;
         padding: 1rem;
     }
 
-    h1 {
-        font-size: 1.5rem;
+    header h1 {
+        margin-bottom: 0;
+        font-size: 1.25rem;
     }
 
-    h2 {
-        font-size: 1.375rem;
+    .nav-toogle-label {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .nav-toogle:checked~nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-left: 0;
+        margin-bottom: 0;
     }
 
     section {
@@ -353,6 +375,6 @@ textarea:focus {
     footer {
         flex-direction: column;
         text-align: center;
-        padding: 1.5rem;
+        padding: 1.5rem
     }
 }
