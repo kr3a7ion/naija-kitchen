@@ -1,3 +1,12 @@
+/* ===== DESIGN TOKENS ===== */
+:root {
+    --brand: #5b21b6;
+    --brand-dark: #025243;
+    --brand-rgb: 3, 109, 88;
+}
+
+
+
 /* ====== RESET ====== */
 * {
     margin: 0;
@@ -57,7 +66,7 @@ section {
 
 /* ===== HEADER ===== */
 header {
-    background: #036d58;
+    background: var(--brand);
     color: white;
     padding: 1.5rem 2rem;
     display: flex;
@@ -152,7 +161,7 @@ nav a:focus {
 /* ======= BUTTON ======= */
 .btn {
     display: inline-block;
-    background: #036d58;
+    background: var(--brand);
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -165,7 +174,7 @@ nav a:focus {
 
 .btn:hover,
 .btn:focus {
-    background: #025243;
+    background: var(--brand-dark);
 }
 
 /* INGREDIENTS */
@@ -252,8 +261,8 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: none;
-    border-color: #036d58;
-    box-shadow: 0 0 0 3px rgba(3, 109, 88, 0.15);
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(var(--brand-rgb) 0.15);
 }
 
 
