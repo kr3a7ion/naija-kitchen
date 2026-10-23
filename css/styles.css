@@ -1,6 +1,6 @@
 /* ===== DESIGN TOKENS ===== */
 :root {
-    --brand: #5b21b6;
+    --brand: #036d58;
     --brand-dark: #025243;
     --brand-rgb: 3, 109, 88;
 }
@@ -179,7 +179,7 @@ nav a:focus {
 
 /* INGREDIENTS */
 .ingredients {
-    background: #e6f2ef;
+    background: rgba(var(--brand-rgb), 0.1);
     padding: 1.5rem;
     border-radius: 6px;
 }
