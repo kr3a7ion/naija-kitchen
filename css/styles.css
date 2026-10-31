@@ -3,6 +3,7 @@
     --brand: #036d58;
     --brand-dark: #025243;
     --brand-rgb: 3, 109, 88;
+    --textcolor: white;
 }
 
 
@@ -283,6 +284,7 @@ textarea:focus {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
 }
 
 .gallery__image {
@@ -314,6 +316,21 @@ textarea:focus {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
+
+/******** CARD BADGE ********/
+.gallery__badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 1;
+
+    background: var(--brand);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 99px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
 
 /***** MOBILE NAV *****/
 .nav-toggle {
