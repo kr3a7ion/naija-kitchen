@@ -332,6 +332,11 @@ textarea:focus {
     font-weight: 600;
 }
 
+/***** BADGE VARIANT *****/
+.gallery__badge--cool {
+    background: #1e40af;
+}
+
 /***** MOBILE NAV *****/
 .nav-toggle {
     position: absolute;
